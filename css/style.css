@@ -87,6 +87,34 @@ footer{
     background-color: lightgrey;
     justify-content: space-between;
     margin-top: 28px;
+    align-items: center;
+}
+
+footer ul li{
+    text-decoration: none;
+    list-style-type: none;
+}
+
+footer ul{
+    justify-content: space-around;
+    display: flex;
+    flex-direction: row;
+    width: 600px;
+}
+
+.socials-footer{
+    justify-content: left;
+    margin-left: 50px;
+}
+
+footer div div{
+    display: flex;
+    justify-content: left;
+
+}
+
+footer div h2{
+    font-size: 20px;
 }
 
 /*!--------- HOMEPAGE Y MISCELANEOS -----------*/

@@ -54,7 +54,12 @@ header{
     flex-direction: row;
     padding-right: 20px;
     font-family: 'Kanit', sans-serif;
+    font-weight: 300;
+}
+
+.top-menu ul li:hover{
     font-weight: 400;
+    text-decoration-line: underline;
 }
 
 .top-menu ul{
@@ -94,10 +99,10 @@ header{
         color: white;
     }
 
-.btn:hover{
-    background-color: #0a58ca;
-    border: #0a58ca;
-}
+    .btn:hover{
+        background-color: #0a58ca;
+        border: #0a58ca;
+    }
 
 .form-control{
     font-family: 'Roboto', sans-serif;
@@ -123,6 +128,7 @@ footer{
 footer ul li{
     text-decoration: none;
     list-style-type: none;
+    font-weight: 300;
 }
 
 footer ul{
@@ -130,6 +136,11 @@ footer ul{
     display: flex;
     flex-direction: row;
     width: 400px;
+}
+
+footer ul li:hover{
+    text-decoration-line: underline;
+    font-weight: 400;
 }
 
 .socials-footer{
@@ -156,7 +167,7 @@ footer h2{
 .enlaces-footer ul li a{
     font-family: 'Kanit', sans-serif;
     font-size: 18px;
-    color: #3563e9;
+    color: #0d6efd;
 }
 
 /*!--------- HOMEPAGE Y MISCELANEOS -----------*/

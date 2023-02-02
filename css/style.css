@@ -132,7 +132,7 @@ footer ul li{
 }
 
 footer ul{
-    justify-content: space-around;
+    justify-content: space-between;
     display: flex;
     flex-direction: row;
     width: 400px;
@@ -144,6 +144,7 @@ footer ul li:hover{
 }
 
 .socials-footer{
+    
     justify-content: left;
     margin-left: 50px;
 }
@@ -169,6 +170,22 @@ footer h2{
     font-size: 18px;
     color: #0d6efd;
 }
+
+.enlaces-footer ul li{
+    width: fit-content;
+}
+
+@media screen and (max-width: 1050px) {
+    .enlaces-footer ul{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    .enlaces-footer{
+        justify-content: center;
+    }
+}
+
 
 /*!--------- HOMEPAGE Y MISCELANEOS -----------*/
 
@@ -235,9 +252,11 @@ footer h2{
     }
 
     .carrusel-productos{
-        display: flex;
-        gap: 12px;
-    }
+        display: grid;
+        gap: 10px;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        justify-items: center;
+        }
 
     .carrusel-productos img{
         display: block;
@@ -311,7 +330,7 @@ footer h2{
 main{
     display: flex;
     flex-direction: column;
-    max-width: 1400px;
+    max-width: 1200px;
     margin: auto;
 }
 
@@ -379,6 +398,10 @@ body header a{
 }
 
 /*!--------- Productos -----------*/
+
+.plp main{
+    max-width: 1400px;
+}
 
 .plp main h1{
     text-align: center;
@@ -493,5 +516,7 @@ body header a{
 .grid-productos{
     display: grid;
     gap: auto;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(300px, 2fr));
+    justify-items: center;
 }
+

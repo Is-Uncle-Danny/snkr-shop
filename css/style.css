@@ -494,6 +494,10 @@ body header a{
 
 /*!--------- ABOUT US -----------*/
 
+.nosotros section{
+    margin-top: 90px;
+}
+
 .contenido-a nav{
     display: flex;
     flex-direction: row-reverse;

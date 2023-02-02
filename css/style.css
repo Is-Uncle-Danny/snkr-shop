@@ -634,3 +634,41 @@ body header a{
     justify-items: center;
 }
 
+/*!----- CONTACTO -----*/
+
+.contacto{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+    padding-top: 100px;
+}
+
+.contacto img{
+    width: 400px;
+    height: 400px;
+}
+
+.formularios{
+    display: flex;
+    flex-direction: column;
+    width: 500px;
+}
+
+
+/*!----- PDP -----*/
+
+.pdp .imagen-producto{
+    width: 400px;
+    height: 400px;
+}
+
+.pdp .informacion-producto{
+    display: flex;
+    flex-direction: column;
+}
+
+.pdp {
+    display: flex;
+    flex-direction: row;
+    padding-top: 80px;
+}

@@ -6,7 +6,7 @@ font-family: 'Roboto', sans-serif;
 */
 
 
-@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Roboto:wght@300;400&display=swap'); 
+@import url('https://fonts.googleapis.com/css2?family=Kanit:wght@300;400&family=Roboto:wght@300;400;500&display=swap'); 
 
 /*!--------- GENERALES DE SITIO -----------*/
 
@@ -229,52 +229,52 @@ footer h2{
     box-shadow: 0px 11px 28px 20px rgba(0,0,0,0.1);
     width: 300px;
 }
-.oneup div{
-    width: 300px;
-    clip-path: inset(0px 0px 0px 0px round 20px);
-}
+    .oneup div{
+        width: 300px;
+        clip-path: inset(0px 0px 0px 0px round 20px);
+    }
 
-.carrusel-productos{
+    .carrusel-productos{
+        display: flex;
+        gap: 12px;
+    }
+
+    .carrusel-productos img{
+        display: block;
+        width: 100%;
+    }
+
+    .oneup-content{
     display: flex;
-    gap: 12px;
-}
-
-.carrusel-productos img{
-    display: block;
-    width: 100%;
-}
-
-.oneup-content{
-display: flex;
-flex-direction: column;
-flex-wrap: wrap;
-width: 300px;
-background-color: #f6f6f6;
-}
-
-.oneup-text{
-    padding: 8px 12px 8px 12px;
-}
-
-.oneup-text h3{
-    font-weight: 400;
-}
-
-.oneup-text h4{
-    font-size: 18px;
-}
-
-.cta-comprar{
+    flex-direction: column;
+    flex-wrap: wrap;
     width: 300px;
-    font-family: 'Roboto', sans-serif;
-    color: #f6f6f6;
-    font-weight: 600;
-    font-size: 24px;
-    padding-top: 8px;
-    padding-bottom: 8px;
-    border: 0;
-    background-color: #313032;
-}
+    background-color: #f6f6f6;
+    }
+
+    .oneup-text{
+        padding: 8px 12px 8px 12px;
+    }
+
+    .oneup-text h3{
+        font-weight: 400;
+    }
+
+    .oneup-text h4{
+        font-size: 18px;
+    }
+
+    .cta-comprar{
+        width: 300px;
+        font-family: 'Roboto', sans-serif;
+        color: #f6f6f6;
+        font-weight: 600;
+        font-size: 24px;
+        padding-top: 8px;
+        padding-bottom: 8px;
+        border: 0;
+        background-color: #313032;
+    }
 
 .cta-principal{
     margin-top: 30px;
@@ -311,7 +311,7 @@ background-color: #f6f6f6;
 main{
     display: flex;
     flex-direction: column;
-    max-width: 1200px;
+    max-width: 1400px;
     margin: auto;
 }
 
@@ -376,4 +376,122 @@ body header a{
     flex-direction: row;
     justify-content: space-evenly;
 
-}  
+}
+
+/*!--------- Productos -----------*/
+
+.plp main h1{
+    text-align: center;
+}
+
+.plp main h3{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 400;
+}
+
+.nav-item {
+    list-style: none;
+    font-family: 'Kanit', sans-serif;
+    font-size: 18px;
+    font-weight: 300;
+}
+
+.dropdown-item{
+    font-weight: 300;
+}
+
+.plp .filtros{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+}
+
+.plp hr{
+    border-color: #313032;
+    border-width: 2px;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.plp .oneup{
+    border-radius: 0px;
+}
+
+.plp .oneup div{
+    clip-path: none;
+}
+
+.plp .oneup h4{
+    font-size: 22px;
+    font-family: 'Roboto', sans-serif;
+    color: beige;
+}
+
+.plp .oneup h3{
+    color: beige;
+}
+
+.plp .texto-descuento{
+    font-size: 16px !important;
+    text-decoration: line-through;
+    color: crimson !important;
+    font-weight: 500;
+}
+.plp .oneup-text div{
+    display: flex;
+    justify-content: center;
+    gap: 12px;
+}
+
+.plp .oneup-content{
+    background-color: #22212b;
+}
+
+.plp .oneup{
+    box-shadow: none;
+    width: 300px;
+    margin-top: 24px;
+}
+
+.plp .oneup:hover{
+    box-shadow: #22212b;
+}
+
+.plp .cta-addtocart button{
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    background-color: #0a58ca;
+    font-family: 'Roboto', sans-serif;
+    color: #f6f6f6;
+    font-size: 18px;
+    gap: 10px;
+    font-weight: 400;
+    padding: 0px 45px 0px 45px;
+}
+
+    .hvr-grow {
+        display: inline-block;
+        vertical-align: middle;
+        -webkit-transform: perspective(1px) translateZ(0);
+        transform: perspective(1px) translateZ(0);
+        box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+        -webkit-transition-duration: 0.3s;
+        transition-duration: 0.3s;
+        -webkit-transition-property: transform;
+        transition-property: transform;
+    }
+
+    .hvr-grow:hover,
+    .hvr-grow:focus,
+    .hvr-grow:active {
+        transform: scale(1.04);
+    }
+
+.grid-productos{
+    display: grid;
+    gap: auto;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+}

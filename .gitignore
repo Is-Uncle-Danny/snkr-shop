@@ -1,2 +1,4 @@
 desktop.ini
 readme.md
+*.txt
+node_modules/

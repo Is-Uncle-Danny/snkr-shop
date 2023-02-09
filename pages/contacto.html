@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -11,13 +12,16 @@
     <link rel="stylesheet" href="../css/style.css">
     <title>Productos</title>
 </head>
+
 <body class="plp">
     <!--! HEADER  MOBILE-->
     <header class="hamburguesa">
         <nav class="navbar navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid">
                 <a class="navbar-brand" href="#"><img src="../img/SNKR.png" alt="SNKR-Logo"></a>
-                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+                <button class="navbar-toggler collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false"
+                    aria-label="Toggle navigation">
                     <span class="icono-hamburguesa"><i class="bi bi-list"></i> </span>
                 </button>
                 <div class="navbar-collapse collapse" id="navbarTogglerDemo02">
@@ -59,70 +63,85 @@
             </form>
         </nav>
     </header>
-        <main class="contacto">
-            <h1>Contactanos</h1>
-            <img src="https://picsum.photos/400/400" alt="">
-            <section class="formularios">
-                <div>
-                    <h2>Descripcion de texto</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Fugit deserunt perspiciatis at, amet dolorum, minima dolor in repellat quibusdam aperiam itaque suscipit labore odio sed ut, illum ratione eveniet dignissimos.</p>
-                </div>
-                <form action="" method="" enctype=""></form>
+    <main class="contacto">
+        <h1>Contactanos</h1>
+        <section class="formularios">
+            <div class="contacto-contenido">
+                <img src="https://picsum.photos/400/400" alt="">
+                <div class="contacto-copy">
                     <div>
-                        <label for="nombre">Nombre</label>
-                        <input type="text" name="nombre" id="nombre">
+                        <h3>Informacion de tu pedido</h3>
+                        <p>Compartenos la informacion basica de tu pedido para poder asistirte.</p>
                     </div>
-                    <div>
-                        <label for="apellido">Apellido</label>
-                        <input type="text" name="apellido" id="apellido">
-                    </div>
-                    <div>
-                        <label for="correo">Correo</label>
-                        <input type="text" name="correo" id="correo">
-                    </div>
-                    <div>
-                        <label for="apellido">Numero de pedido</label>
-                        <input type="text" name="numero-de-pedido" id="numero-de-pedido">
-                    </div>
-                    <div>
-                    <h2>Tipo de articulo</h2>
-                        <div>
-                            <label for="masculino"></label>Masculino<input type="radio" name="genero" id="masculino">
-                            <label for="femenino"></label>Femenino<input type="radio" name="genero" id="femenino">
-                            <label for="otro" ></label>Otro<input type="radio" name="genero" id="otro">
+                    <form class="informacion-pedido">
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Nombre:</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput"
+                                placeholder="Ejemplo: Pedro">
                         </div>
-                    </div>
-                    <div>
-                        <label for="describe-tu-problema">Describe tu problema</label>
-                        <input type="text" name="describe-tu-problema" id="describe-tu-problema">
-                    </div>
-                    <div>
-                        <h2></h2>
-                    </div>
-            </section>
-        </main>
-        <footer>
-            <div class="socials-footer">
-                <h2>Nuestras redes sociales:</h2>
-                <div>
-                    <a href="https://www.facebook.com" target="_blank"><img  src="../img/facebook.png" alt="Logo Facebook"></a>
-                    <a href="www.instagram.com" target="_blank"><img src="../img/instagram.png" alt="Logo Instagram"></a>
-                    <a href="www.twitter.com" target="_blank"><img src="../img/twitter.png" alt="Logo Twitter"></a>  
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Apellido:</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput"
+                                placeholder="Ejemplo: Gonzalez Elizondo">
+                        </div>
+<!--                         <div class="form-group">
+                            <label for="exampleInputEmail1">Correo</label>
+                            <input type="email" class="form-control" id="exampleInputEmail1"
+                                aria-describedby="emailHelp" placeholder="Enter email">
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone
+                                else.</small>
+                        </div> -->
+                        <div class="form-group">
+                            <label for="formGroupExampleInput">Numero de pedido:</label>
+                            <input type="text" class="form-control" id="formGroupExampleInput"
+                                placeholder="Ejemplo: 3743826">
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlSelect1">Selecciona tipo de producto:</label>
+                            <select class="form-control" id="exampleFormControlSelect1">
+                                <option>Calzado</option>
+                                <option>Textiles</option>
+                                <option>Equipo deportivo</option>
+                                <option>Accesorios</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="exampleFormControlTextarea1">Describenos tu problema:</label>
+                            <textarea placeholder="Escribenos tu problema" class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+                        </div>
+                    </form>
                 </div>
+            </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <div class="socials-footer">
+            <h2>Nuestras redes sociales:</h2>
+            <div>
+                <a href="https://www.facebook.com" target="_blank"><img src="../img/facebook.png"
+                        alt="Logo Facebook"></a>
+                <a href="www.instagram.com" target="_blank"><img src="../img/instagram.png" alt="Logo Instagram"></a>
+                <a href="www.twitter.com" target="_blank"><img src="../img/twitter.png" alt="Logo Twitter"></a>
+            </div>
 
-            </div>
-            <div class="enlaces-footer">
-                <h2>Enlaces rapidos:</h2>
-                <ul>
-                    <li><a href="../index.html">Inicio</a></li>
-                    <li><a href="./productos.html">Productos</a></li>
-                    <li><a href="./about-us.html">Nosotros</a></li>
-                    <li><a href="./contacto.html">Contacto</a></li>
-                </ul>
-            </div>
-            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3595.931817721167!2d-100.31997398463058!3d25.67355481850856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662bf75a619eb25%3A0x98a0cabd141b8218!2sSneakers%20Patr%C3%B3n%20Loco!5e0!3m2!1ses-419!2smx!4v1675233067664!5m2!1ses-419!2smx" width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-        </footer>
-        <!--!BOOTSTRAP SCRIPT  -->
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script> 
-    </body>
+        </div>
+        <div class="enlaces-footer">
+            <h2>Enlaces rapidos:</h2>
+            <ul>
+                <li><a href="../index.html">Inicio</a></li>
+                <li><a href="./productos.html">Productos</a></li>
+                <li><a href="./about-us.html">Nosotros</a></li>
+                <li><a href="./contacto.html">Contacto</a></li>
+            </ul>
+        </div>
+        <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3595.931817721167!2d-100.31997398463058!3d25.67355481850856!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8662bf75a619eb25%3A0x98a0cabd141b8218!2sSneakers%20Patr%C3%B3n%20Loco!5e0!3m2!1ses-419!2smx!4v1675233067664!5m2!1ses-419!2smx"
+            width="300" height="200" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </footer>
+    <!--!BOOTSTRAP SCRIPT  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
 </html>

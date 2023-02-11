@@ -536,22 +536,22 @@ body header a{
 
 /*!--------- Productos -----------*/
 
-.plp main{
+.generales main{
     max-width: 1400px;
 }
 
-.plp main h1{
+.generales main h1{
     text-align: center;
 }
 
-.plp main h3{
+.generales main h3{
     display: flex;
     justify-content: center;
     font-size: 24px;
     font-weight: 400;
 }
 
-.plp .nav-item {
+.generales .nav-item {
     list-style: none;
     font-family: 'Kanit', sans-serif;
     font-size: 18px;
@@ -562,64 +562,64 @@ body header a{
     font-weight: 300;
 }
 
-.plp .filtros{
+.generales .filtros{
     display: flex;
     justify-content: center;
     gap: 24px;
 }
 
-.plp hr{
+.generales hr{
     border-color: #313032;
     border-width: 2px;
     margin-top: 28px;
     margin-bottom: 28px;
 }
 
-.plp .oneup{
+.generales .oneup{
     border-radius: 0px;
 }
 
-.plp .oneup div{
+.generales .oneup div{
     clip-path: none;
 }
 
-.plp .oneup h4{
+.generales .oneup h4{
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
     color: beige;
 }
 
-.plp .oneup h3{
+.generales .oneup h3{
     color: beige;
 }
 
-.plp .texto-descuento{
+.generales .texto-descuento{
     font-size: 16px !important;
     text-decoration: line-through;
     color: crimson !important;
     font-weight: 500;
 }
-.plp .oneup-text div{
+.generales .oneup-text div{
     display: flex;
     justify-content: center;
     gap: 12px;
 }
 
-.plp .oneup-content{
+.generales .oneup-content{
     background-color: #22212b;
 }
 
-.plp .oneup{
+.generales .oneup{
     box-shadow: none;
     width: 300px;
     margin-top: 24px;
 }
 
-.plp .oneup:hover{
+.generales .oneup:hover{
     box-shadow: #22212b;
 }
 
-.plp .cta-addtocart button{
+.generales .cta-addtocart button{
     width: 100%;
     display: flex;
     justify-content: space-between;

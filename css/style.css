@@ -536,22 +536,22 @@ body header a{
 
 /*!--------- Productos -----------*/
 
-.generales main{
+.plp main{
     max-width: 1400px;
 }
 
-.generales main h1{
+.plp main h1{
     text-align: center;
 }
 
-.generales main h3{
+.plp main h3{
     display: flex;
     justify-content: center;
     font-size: 24px;
     font-weight: 400;
 }
 
-.generales .nav-item {
+.plp .nav-item {
     list-style: none;
     font-family: 'Kanit', sans-serif;
     font-size: 18px;
@@ -562,64 +562,64 @@ body header a{
     font-weight: 300;
 }
 
-.generales .filtros{
+.plp .filtros{
     display: flex;
     justify-content: center;
     gap: 24px;
 }
 
-.generales hr{
+.plp hr{
     border-color: #313032;
     border-width: 2px;
     margin-top: 28px;
     margin-bottom: 28px;
 }
 
-.generales .oneup{
+.plp .oneup{
     border-radius: 0px;
 }
 
-.generales .oneup div{
+.plp .oneup div{
     clip-path: none;
 }
 
-.generales .oneup h4{
+.plp .oneup h4{
     font-size: 22px;
     font-family: 'Roboto', sans-serif;
     color: beige;
 }
 
-.generales .oneup h3{
+.plp .oneup h3{
     color: beige;
 }
 
-.generales .texto-descuento{
+.plp .texto-descuento{
     font-size: 16px !important;
     text-decoration: line-through;
     color: crimson !important;
     font-weight: 500;
 }
-.generales .oneup-text div{
+.plp .oneup-text div{
     display: flex;
     justify-content: center;
     gap: 12px;
 }
 
-.generales .oneup-content{
+.plp .oneup-content{
     background-color: #22212b;
 }
 
-.generales .oneup{
+.plp .oneup{
     box-shadow: none;
     width: 300px;
     margin-top: 24px;
 }
 
-.generales .oneup:hover{
+.plp .oneup:hover{
     box-shadow: #22212b;
 }
 
-.generales .cta-addtocart button{
+.plp .cta-addtocart button{
     width: 100%;
     display: flex;
     justify-content: space-between;
@@ -703,19 +703,28 @@ body header a{
 
     
     /*!----- PDP -----*/
-    
-.pdp .imagen-producto{
-    width: 400px;
-    height: 400px;
+
+
+.imagenes-producto{
+    object-fit: cover;
+    max-width: 900px;
+    width: auto;
+    display: grid;
+    gap: 40px;
+    grid-template-columns: repeat(auto-fit, minmax(400px, 2fr));
 }
+
 
 .pdp .informacion-producto{
     display: flex;
     flex-direction: column;
+    max-width: 400px;
 }
 
 .pdp {
     display: flex;
     flex-direction: row;
+    justify-content: center;
     padding-top: 80px;
 }
+

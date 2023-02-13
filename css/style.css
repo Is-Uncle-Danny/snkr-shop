@@ -237,8 +237,36 @@ footer h2{
     }
 
     .banner-text{
-        top:0;
+        top: 70px;
     }
+
+    .pdp{
+        display: flex;
+        flex-direction: column !important;
+        margin-top: 0px !important;
+        align-items: center;
+    }
+
+    .informacion-producto{
+        width: 100%;
+        max-width: none;
+        padding: 20px;
+    }
+
+    .pdp .informacion-producto{
+        width: 100%;
+        max-width: none !important;
+    }
+
+    .pdp .informacion-producto div{
+        width: 100% !important;
+    }
+
+    .w-100{
+        width: none;
+        height: 600px;
+    }
+
 }
 
 @media screen and (max-width: 767px) {
@@ -249,8 +277,9 @@ footer h2{
     }
     
     .banner-text{
-        top:70px;
+        top: 0px !important;
     }
+
 
     .enlaces-footer ul{
         flex-direction: row;
@@ -298,6 +327,32 @@ footer h2{
         visibility: collapse;
     }
 
+    .informacion-producto{
+        width: 100%;
+        max-width: none;
+        padding: 10px;
+
+    }
+
+    .informacion-producto h1{
+        font-size: 24px !important;
+    }
+
+    .informacion-producto h2{
+        font-size: 18px;
+        text-align: center;
+    }
+
+    .informacion-producto h4{
+        text-align: center;
+    }
+
+
+    .tallas{
+        grid-template-columns: repeat(auto-fit, minmax(50px, 3fr));
+        gap: 10px !important;
+        margin-top: 20px;
+    }
 
 
 }
@@ -503,7 +558,7 @@ body header a{
 .nosotros section{
     display: flex;
     flex-direction: column;
-    margin-top: 90px;
+    margin-top: 30px;
     gap: 20px;
 }
 
@@ -669,7 +724,7 @@ body header a{
     display: flex;
     flex-direction: column;
     gap: 50px;
-    padding-top: 100px;
+    margin-top: 30px;
 }
 
 .contacto img{
@@ -724,8 +779,6 @@ body header a{
 .pdp .informacion-producto{
     display: flex;
     flex-direction: column;
-    max-width: 400px;
-    margin-top: 30px;
 }
 
     .pdp .informacion-producto h1{
@@ -742,7 +795,7 @@ body header a{
         grid-template-columns: repeat(auto-fit, minmax(80px, 3fr));
         gap: 30px;
         justify-content: center;
-        margin: 20px 10px 20px 0px;
+        margin-top: 20px;
     }
 
     .tallas button{

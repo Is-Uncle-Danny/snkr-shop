@@ -222,145 +222,6 @@ footer h2{
     display: none;
 }
 
-@media screen and (max-width: 1050px) {
-    .enlaces-footer ul{
-        display: flex;
-        flex-direction: column;
-        width: fit-content;
-    }
-    .enlaces-footer{
-        justify-content: center;
-    }
-
-    .socials-footer div{
-        flex-direction: column;
-    }
-
-    .banner-text{
-        top: 70px;
-    }
-
-    .pdp{
-        display: flex;
-        flex-direction: column !important;
-        margin-top: 0px !important;
-        align-items: center;
-    }
-
-    .informacion-producto{
-        width: 100%;
-        max-width: none;
-        padding: 20px;
-    }
-
-    .pdp .informacion-producto{
-        width: 100%;
-        max-width: none !important;
-    }
-
-    .pdp .informacion-producto div{
-        width: 100% !important;
-    }
-
-    .w-100{
-        width: none;
-        height: 600px;
-    }
-
-}
-
-@media screen and (max-width: 767px) {
-    footer{
-        display: grid;
-        justify-content: center;
-
-    }
-    
-    .banner-text{
-        top: 0px !important;
-    }
-
-
-    .enlaces-footer ul{
-        flex-direction: row;
-        gap: 12px;
-        padding-left: 0px;
-    }
-    
-    .socials-footer{
-        margin-left: 0px;
-        margin-top: 20px;
-        justify-content: center;
-        order: 2;
-    }
-
-    .socials-footer h2{
-        width: 100%;
-        text-align: center;
-    }
-
-    .socials-footer div{
-        flex-direction: row;
-        justify-content: space-around;
-    }
-
-    .enlaces-footer{
-        margin-top: 20px;
-        margin-left: 0px;
-        order: 1;
-    }
-
-    footer iframe{
-        display: flex;
-        justify-self: center;
-        order: 3;
-        margin-top: 20px;
-    }
-
-    .hamburguesa{
-        display: revert;
-        visibility: revert;
-    }
-
-    header{
-        display: none;
-        visibility: collapse;
-    }
-
-    .informacion-producto{
-        width: 100%;
-        max-width: none;
-        padding: 10px;
-
-    }
-
-    .informacion-producto h1{
-        font-size: 24px !important;
-    }
-
-    .informacion-producto h2{
-        font-size: 20px;
-        text-align: center;
-    }
-
-    .informacion-producto h4{
-        text-align: center;
-    }
-
-
-    .tallas{
-        grid-template-columns: repeat(auto-fit, minmax(50px, 3fr));
-        gap: 10px !important;
-        margin-top: 20px;
-    }
-
-    .w-100{
-        width:100%!important;
-        height: auto;
-    }
-
-
-}
 
 
 /*!--------- HOMEPAGE Y MISCELANEOS -----------*/
@@ -576,7 +437,7 @@ body header a{
 }
 
     .contenido-a div{
-        margin-right: 24px;
+        margin-right: 16px;
     }
 
 .contenido-b{
@@ -588,7 +449,7 @@ body header a{
 }
 
     .contenido-b div{
-        margin-right: 24px;
+        margin-left: 16px;
     }
 
 
@@ -755,6 +616,7 @@ body header a{
     display: flex;
     flex-direction: column;
     gap: 20px;
+    width: 100%;
 }
 
 .informacion-pedido{
@@ -828,4 +690,210 @@ body header a{
 
 .carousel-control-next-icon, .carousel-control-prev-icon{
     background-color: #0a58ca;
+}
+
+@media screen and (max-width: 1050px) {
+    .enlaces-footer ul{
+        display: flex;
+        flex-direction: column;
+        width: fit-content;
+    }
+    .enlaces-footer{
+        justify-content: center;
+    }
+
+    .socials-footer div{
+        flex-direction: column;
+    }
+
+    .banner-text{
+        top: 70px;
+    }
+
+    .pdp{
+        display: flex;
+        flex-direction: column !important;
+        margin-top: 0px !important;
+        align-items: center;
+    }
+
+    .informacion-producto{
+        width: 100%;
+        max-width: none;
+        padding: 20px;
+    }
+
+    .pdp .informacion-producto{
+        width: 100%;
+        max-width: none !important;
+    }
+
+    .pdp .informacion-producto div{
+        width: 100% !important;
+    }
+
+    .w-100{
+        width: none;
+        height: 600px;
+    }
+
+    .contenido-a, .contenido-b{
+        gap: 8px;
+    }
+
+    .contenido-a h2{
+        text-align: left;
+        font-size: 24px;
+    }
+    
+    .contenido-a p{
+        text-align: left;
+        font-size: 14px;
+
+    }
+
+    .contenido-b h2{
+        text-align: right;
+        font-size: 24px;
+    }
+
+    .contenido-b p{
+        text-align: right;
+        font-size: 14px;
+    }
+
+    .nosotros img{
+        width: 50%;
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    footer{
+        display: grid;
+        justify-content: center;
+
+    }
+    
+    .banner-text{
+        top: 0px !important;
+    }
+
+
+    .enlaces-footer ul{
+        flex-direction: row;
+        gap: 12px;
+        padding-left: 0px;
+    }
+    
+    .socials-footer{
+        margin-left: 0px;
+        margin-top: 20px;
+        justify-content: center;
+        order: 2;
+    }
+
+    .socials-footer h2{
+        width: 100%;
+        text-align: center;
+    }
+
+    .socials-footer div{
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    .enlaces-footer{
+        margin-top: 20px;
+        margin-left: 0px;
+        order: 1;
+    }
+
+    footer iframe{
+        display: flex;
+        justify-self: center;
+        order: 3;
+        margin-top: 20px;
+    }
+
+    .hamburguesa{
+        display: revert;
+        visibility: revert;
+    }
+
+    header{
+        display: none;
+        visibility: collapse;
+    }
+
+    .informacion-producto{
+        width: 100%;
+        max-width: none;
+        padding: 10px;
+
+    }
+
+    .informacion-producto h1{
+        font-size: 24px !important;
+    }
+
+    .informacion-producto h2{
+        font-size: 20px;
+        text-align: center;
+    }
+
+    .informacion-producto h4{
+        text-align: center;
+    }
+
+
+    .tallas{
+        grid-template-columns: repeat(auto-fit, minmax(50px, 3fr));
+        gap: 10px !important;
+        margin-top: 20px;
+    }
+
+    .w-100{
+        width:100%!important;
+        height: auto;
+    }
+
+    .contenido-a, .contenido-b{
+        flex-direction: column-reverse;
+    }
+
+    .nosotros img{
+        width: 100%;
+        height: 200px;
+        object-fit: cover;
+    }
+
+    .nosotros{
+        margin-top: 80px;
+    }
+
+    .nosotros h1{
+        font-size: 40px;
+    }
+
+    .contenido-a h2{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .contenido-a p{
+        text-align: center;
+        font-size: 14px;
+    }
+
+    .contenido-b h2{
+        text-align: center;
+        font-size: 24px;
+    }
+
+    .contenido-b p{
+        text-align: center;
+        font-size: 14px;
+    }
+
 }

@@ -339,7 +339,7 @@ footer h2{
     }
 
     .informacion-producto h2{
-        font-size: 18px;
+        font-size: 20px;
         text-align: center;
     }
 
@@ -352,6 +352,11 @@ footer h2{
         grid-template-columns: repeat(auto-fit, minmax(50px, 3fr));
         gap: 10px !important;
         margin-top: 20px;
+    }
+
+    .w-100{
+        width:100%!important;
+        height: auto;
     }
 
 

@@ -275,6 +275,10 @@ footer h2{
 
 }
 
+.hp main{
+    max-width: 1200px !important;
+}
+
 /* Mas Productos  */
 
 

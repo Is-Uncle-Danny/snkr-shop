@@ -228,20 +228,20 @@ footer h2{
 
 /* MAIN BANNER  */
 
-.main-banner{
+.hp .main-banner{
     justify-content: center;
 }
 
-.main-banner div a img{
+.hp .main-banner div a img{
     display: flex;
 }
 
-.main-banner div{
+.hp .main-banner div{
     height: 500px;
     background-image: linear-gradient(90deg, rgba(27,27,27,0.7175245098039216) 16%, rgba(255,255,255,0) 94%);
 }
 
-.banner-text{
+.hp .banner-text{
     display: flex;
     flex-direction: column;
     position: absolute; 
@@ -252,7 +252,7 @@ footer h2{
     width: 650px;
 }
 
-.banner-text h3{
+.hp .banner-text h3{
     background-color: white;
     font-weight: 400;
     width: fit-content;
@@ -261,14 +261,14 @@ footer h2{
     margin-top: 20px;
 }
 
-.banner-text h2 {
+.hp .banner-text h2 {
     font-weight: 300;
     font-size: 28px;
     color: white;
     font-family: 'Roboto', sans-serif;
 }
 
-.banner-text h1 {
+.hp .banner-text h1 {
     color: white;
     font-weight: 300px;
     font-size: 30;
@@ -278,29 +278,29 @@ footer h2{
 /* Mas Productos  */
 
 
-.oneup{
+.hp .oneup{
     border-radius: 20px;
     box-shadow: 0px 11px 28px 20px rgba(0,0,0,0.1);
     width: 300px;
 }
-    .oneup div{
+    .hp .oneup div{
         width: 300px;
         clip-path: inset(0px 0px 0px 0px round 20px);
     }
 
-    .carrusel-productos{
+    .hp .carrusel-productos{
         display: grid;
         gap: 10px;
         grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
         justify-items: center;
         }
 
-    .carrusel-productos img{
+    .hp .carrusel-productos img{
         display: block;
         width: 100%;
     }
 
-    .oneup-content{
+    .hp .oneup-content{
     display: flex;
     flex-direction: column;
     flex-wrap: wrap;
@@ -308,15 +308,15 @@ footer h2{
     background-color: #f6f6f6;
     }
 
-    .oneup-text{
+    .hp .oneup-text{
         padding: 8px 12px 8px 12px;
     }
 
-    .oneup-text h3{
+    .hp .oneup-text h3{
         font-weight: 400;
     }
 
-    .oneup-text h4{
+    .hp .oneup-text h4{
         font-size: 18px;
     }
 
@@ -463,7 +463,7 @@ body header a{
 
 /*!--------- Productos -----------*/
 
-.generales main{
+.generales main, .hp main{
     max-width: 1400px;
 }
 
@@ -692,6 +692,8 @@ body header a{
     background-color: #0a58ca;
 }
 
+
+
 @media screen and (max-width: 1050px) {
     .enlaces-footer ul{
         display: flex;
@@ -766,6 +768,15 @@ body header a{
         width: 50%;
     }
 
+    .contacto-contenido{
+        gap: 8px;
+        justify-content: space-between;
+    }
+
+    .contacto-contenido img{
+        width: 300px;
+        height: 300px;
+    }
 }
 
 @media screen and (max-width: 767px) {
@@ -895,5 +906,29 @@ body header a{
         text-align: center;
         font-size: 14px;
     }
+
+    .contenido-a div{
+        margin-right: 0;
+        margin: 0px 8px 0px 8px;
+    }
+    
+    .contenido-b div{
+        margin-left: 0;
+        margin: 0px 8px 0px 8px;
+    }
+
+    .contacto-contenido img{
+        display:none;
+    }
+
+    .contacto-copy{
+        width: 100%;
+        margin: 0px 8px 0px 8px;
+    }
+
+    .contacto{
+        margin-top: 80px;
+    }
+
 
 }

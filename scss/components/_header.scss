@@ -60,13 +60,13 @@ header{
     }
 
     .btn{
-        border-color: #0a58ca;
+        border-color: $color-acento;
         border-width: 1px;
         color: white;
 
         &:hover{
-            background-color: #0a58ca;
-            border: #0a58ca;
+            background-color: $color-acento;
+            border: $color-acento;
         }
     }
     
@@ -91,13 +91,13 @@ header{
     }
 
     .navbar-toggler{
-        border-color: #0a58ca;
+        border-color: $color-acento;
         border-width: 2px;
     }
 
     .icono-hamburguesa i{
         font-size: 28px;
-        color: #0a58ca;
+        color: $color-acento;
     }
 
     .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{

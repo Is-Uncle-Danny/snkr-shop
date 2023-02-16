@@ -113,7 +113,7 @@
 	}
 
 	i {
-		color: #0a58ca;
+		color: $color-acento;
 	}
 
 }
@@ -224,7 +224,7 @@
 			width: 100%;
 			display: flex;
 			justify-content: space-between;
-			background-color: #0a58ca;
+			background-color: $color-acento;
 			font-family: 'Roboto', sans-serif;
 			color: #f6f6f6;
 			font-size: 18px;
@@ -325,7 +325,7 @@
 
 		h1 {
 			font-size: 28px;
-			color: #0a58ca;
+			color: $color-acento;
 		}
 
 		div {
@@ -346,11 +346,11 @@
 	}
 }
 .btn-outline-success {
-	--bs-btn-active-bg: #0a58ca;
+	--bs-btn-active-bg: $color-acento;
 }
 .carrusel-pdp {
 	height: auto;
 }
 .carousel-control-next-icon, .carousel-control-prev-icon {
-	background-color: #0a58ca;
+	background-color: $color-acento;
 }

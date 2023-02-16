@@ -356,7 +356,7 @@ body header a {
     width: auto; }
 
 .btn-outline-success {
-  --bs-btn-active-bg: #0a58ca; }
+  --bs-btn-active-bg: $color-acento; }
 
 .carrusel-pdp {
   height: auto; }

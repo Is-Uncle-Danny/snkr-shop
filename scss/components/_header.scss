@@ -1,0 +1,110 @@
+header{
+    background-color: $background-nav;
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    z-index: 1;
+    
+    .top-menu{
+        display: flex;
+        align-items: center;
+        width: 100%;
+        justify-content: space-between;
+        margin: 0% 5% 0% 5%;
+    
+        ul{
+            list-style: none;
+            display: flex;
+            flex-direction: row;
+            padding-left: 0px;
+            margin-bottom: 0px;
+
+            li{
+                display: flex;
+                flex-direction: row;
+                padding-right: 20px;
+                font-family: 'Kanit', sans-serif;
+                font-weight: 300;
+
+                &:hover{
+                    font-weight: 400;
+                    text-decoration-line: underline;
+                
+                }
+            }
+            a{
+                text-decoration: none;
+                color: aliceblue;
+                list-style: none;
+            }
+        }
+
+        form{
+            display: flex;
+            gap: 12px;
+            font-family: 'Kanit', sans-serif;
+        }
+
+        h2{
+            font-family: 'Kanit', sans-serif;
+            font-size: 32px;
+            font-weight: 300px;
+        }
+
+        img{
+            width: 50px;
+            height: 50px;
+        }
+    }
+
+    .btn{
+        border-color: #0a58ca;
+        border-width: 1px;
+        color: white;
+
+        &:hover{
+            background-color: #0a58ca;
+            border: #0a58ca;
+        }
+    }
+    
+}
+
+.hamburguesa{
+    display: flex;
+    visibility: visible;
+    position: fixed;
+    top: 0;
+    height: 74px;
+
+    .bg-body-tertiary{
+        background-color: #313032 !important;
+        padding: 0px 24px 0px 24px;
+    }
+    
+    .navbar-brand img{
+        width: 50px;
+        height: 50px;
+        vertical-align: middle;
+    }
+
+    .navbar-toggler{
+        border-color: #0a58ca;
+        border-width: 2px;
+    }
+
+    .icono-hamburguesa i{
+        font-size: 28px;
+        color: #0a58ca;
+    }
+
+    .navbar-nav .nav-link.active, .navbar-nav .show>.nav-link{
+        color: #f6f6f6;
+    }
+}
+
+.form-control{
+    font-family: 'Roboto', sans-serif;
+}

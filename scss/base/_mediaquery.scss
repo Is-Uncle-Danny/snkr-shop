@@ -1,0 +1,245 @@
+@media screen and (max-width: 1050px) {
+    .enlaces-footer{
+        justify-content: center;
+
+        ul{
+            display: flex;
+            flex-direction: column;
+            width: fit-content;
+        }
+    }    
+
+    .socials-footer div{
+        flex-direction: column;
+    }
+
+    .banner-text{
+        top: 70px;
+    }
+    
+    .pdp{
+        display: flex;
+        flex-direction: column !important;
+        margin-top: 0px !important;
+        align-items: center;
+        
+        .informacion-producto{
+            width: 100%;
+            padding: 20px;
+            max-width: none !important;
+            
+            div{
+                width: 100% !important;
+            }
+        }
+    }
+
+    .w-100{
+        width: none;
+        height: 600px;
+    }
+
+    .contenido-a{
+        gap: 8px;
+
+        h2{
+            text-align: left;
+            font-size: 24px;
+        }
+
+        p{
+            text-align: left;
+            font-size: 14px;
+        }
+    }
+
+    .contenido-b{
+        gap: 8px;
+
+        h2{
+            text-align: right;
+            font-size: 24px;
+        }
+    
+        p{
+            text-align: right;
+            font-size: 14px;
+        }
+    }
+
+    .nosotros img{
+        width: 50%;
+    }
+
+    .contacto-contenido{
+        gap: 8px;
+        justify-content: space-between;
+
+        img{
+            width: 300px;
+            height: 300px;
+        }
+    }
+
+}
+
+@media screen and (max-width: 767px) {
+    footer{
+        display: grid;
+        justify-content: center;
+
+    }
+    
+    .banner-text{
+        top: 0px !important;
+    }
+
+    
+    .socials-footer{
+        margin-left: 0px;
+        margin-top: 20px;
+        justify-content: center;
+        order: 2;
+        
+        h2{
+            width: 100%;
+            text-align: center;
+        }
+        div{
+            flex-direction: row;
+            justify-content: space-around;
+        }
+    }
+
+    .productos{
+        margin-top: 85px;
+    }
+
+
+    .enlaces-footer{
+        margin-top: 20px;
+        margin-left: 0px;
+        order: 1;
+
+        ul{
+            flex-direction: row;
+            gap: 12px;
+            padding-left: 0px;
+        }
+    }
+
+    footer iframe{
+        display: flex;
+        justify-self: center;
+        order: 3;
+        margin-top: 20px;
+    }
+
+    .hamburguesa{
+        display: revert;
+        visibility: revert;
+    }
+
+    header{
+        display: none;
+        visibility: collapse;
+    }
+
+    .informacion-producto{
+        width: 100%;
+        max-width: none;
+        padding: 10px;
+        
+        h1{
+            font-size: 24px !important;
+        }
+
+        h2{
+            font-size: 20px;
+            text-align: center;
+        }
+
+        h4{
+            text-align: center;
+        }
+    }
+    
+    .tallas{
+        grid-template-columns: repeat(auto-fit, minmax(50px, 3fr));
+        gap: 10px !important;
+        margin-top: 20px;
+    }
+    
+    .w-100{
+        width:100%!important;
+        height: auto;
+    }
+    
+    .contenido-a{
+        flex-direction: column-reverse;
+        
+        h2{
+            text-align: center;
+            font-size: 24px;
+        }
+        
+        p{
+            text-align: center;
+            font-size: 14px;
+        }
+        
+        div{
+            margin-right: 0;
+            margin: 0px 8px 0px 8px;
+        }
+    }
+
+    .contenido-b{
+        flex-direction: column-reverse;
+
+        h2{
+            text-align: center;
+            font-size: 24px;
+        }
+    
+        p{
+            text-align: center;
+            font-size: 14px;
+        }
+
+        div{
+            margin-left: 0;
+            margin: 0px 8px 0px 8px;
+        }
+    }
+
+    
+    .nosotros{
+        margin-top: 60px;
+
+        img{
+            width: 100%;
+            height: 200px;
+            object-fit: cover;
+        }
+
+        h1{
+            font-size: 40px;
+        }
+    }
+
+    .contacto-contenido img{
+        display:none;
+    }
+
+    .contacto-copy{
+        width: 100%;
+        margin: 0px 8px 0px 8px;
+    }
+
+    .contacto{
+        margin-top: 80px;
+    }
+
+
+}

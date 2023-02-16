@@ -83,6 +83,7 @@ body header a {
 .titulo-secundario h2 {
   color: black; }
 
+/* Colores */
 /*!--------- HOMEPAGE Y MISCELANEOS -----------*/
 /* MAIN BANNER  */
 .hp .main-banner {
@@ -232,12 +233,12 @@ body header a {
   .generales .oneup h3 {
     color: beige; }
   .generales .oneup:hover {
-    box-shadow: #22212b; }
+    box-shadow: #313032; }
 
 .generales .texto-descuento {
   font-size: 16px !important;
   text-decoration: line-through;
-  color: crimson !important;
+  color: #dc143c !important;
   font-weight: 500; }
 
 .generales .oneup-text div {
@@ -246,7 +247,7 @@ body header a {
   gap: 12px; }
 
 .generales .oneup-content {
-  background-color: #22212b; }
+  background-color: #313032; }
 
 .generales .cta-addtocart button {
   width: 100%;
@@ -352,8 +353,16 @@ body header a {
   justify-content: center;
   margin-top: 20px; }
   .tallas button {
-    color: #22212b;
+    color: #313032;
     width: auto; }
+
+.btn {
+  border-color: #0a58ca;
+  border-width: 1px;
+  color: white; }
+  .btn:hover {
+    background-color: #0a58ca;
+    border: #0a58ca; }
 
 .btn-outline-success {
   --bs-btn-active-bg: $color-acento; }

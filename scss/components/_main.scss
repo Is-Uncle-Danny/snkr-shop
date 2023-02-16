@@ -198,13 +198,13 @@
 		}
         
 		&:hover {
-			box-shadow: #22212b;
+			box-shadow: $background-nav;
 		}
 	}
 	.texto-descuento {
 		font-size: 16px !important;
 		text-decoration: line-through;
-		color: crimson !important;
+		color: $color-descuento !important;
 		font-weight: 500;
 	}
 	.oneup-text {
@@ -217,7 +217,7 @@
 
 	}
 	.oneup-content {
-		background-color: #22212b;
+		background-color: $background-nav;
 	}
 	.cta-addtocart {
 		button {
@@ -341,10 +341,24 @@
 	justify-content: center;
 	margin-top: 20px;
 	button {
-		color: #22212b;
+		color: $background-nav;
 		width: auto;
 	}
 }
+
+.btn{
+	border-color: $color-acento;
+	border-width: 1px;
+	color: white;
+	
+	&:hover{
+		background-color: $color-acento;
+		border: $color-acento;
+	}
+}
+
+
+
 .btn-outline-success {
 	--bs-btn-active-bg: $color-acento;
 }

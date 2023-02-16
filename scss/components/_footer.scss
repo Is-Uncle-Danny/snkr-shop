@@ -3,11 +3,9 @@
 
 footer{
     display: flex;
-    flex-direction: row;
+    @include direccion-justify-alineacion(row,space-between,center);
     background-color: $background-nav;
-    justify-content: space-between;
     margin-top: 28px;
-    align-items: center;
     
     h2{
         font-size: 20px;

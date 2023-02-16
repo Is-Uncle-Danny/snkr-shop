@@ -84,6 +84,12 @@ body header a {
   color: black; }
 
 /* Colores */
+/* Extends */
+.nosotros section {
+  display: flex;
+  flex-direction: column; }
+
+/* Mixin */
 /*!--------- HOMEPAGE Y MISCELANEOS -----------*/
 /* MAIN BANNER  */
 .hp .main-banner {
@@ -97,9 +103,10 @@ body header a {
 .hp .banner-text {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  align-items: none;
   position: absolute;
   top: 70px;
-  justify-content: center;
   padding-left: 30px;
   text-decoration: none;
   width: 650px; }
@@ -159,8 +166,6 @@ body header a {
   margin-top: 18px; }
 
 .nosotros section {
-  display: flex;
-  flex-direction: column;
   margin-top: 30px;
   gap: 20px; }
 
@@ -454,10 +459,10 @@ header {
 footer {
   display: flex;
   flex-direction: row;
-  background-color: #313032;
   justify-content: space-between;
-  margin-top: 28px;
-  align-items: center; }
+  align-items: center;
+  background-color: #313032;
+  margin-top: 28px; }
   footer h2 {
     font-size: 20px;
     font-family: 'Kanit', sans-serif;

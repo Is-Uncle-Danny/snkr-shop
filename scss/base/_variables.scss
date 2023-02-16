@@ -2,3 +2,18 @@
 $color-acento: #0a58ca;
 $background-nav: #313032;
 $color-descuento: #dc143c;
+
+/* Extends */
+
+%flex-aboutus{
+    display: flex;
+    flex-direction: column;
+}
+
+/* Mixin */
+
+@mixin direccion-justify-alineacion($direction,$justify,$align){
+    flex-direction: $direction;
+    justify-content: $justify;
+    align-items: $align;
+}

@@ -97,8 +97,12 @@ body header a {
   .hp .main-banner div {
     height: 500px;
     background-image: linear-gradient(90deg, rgba(27, 27, 27, 0.717525) 16%, rgba(255, 255, 255, 0) 94%); }
-    .hp .main-banner div a img {
-      display: flex; }
+
+.hp .imagen-responsive {
+  display: flex;
+  width: 100%;
+  object-fit: cover;
+  height: 500px; }
 
 .hp .banner-text {
   display: flex;
@@ -517,7 +521,8 @@ footer {
   .socials-footer div {
     flex-direction: column; }
   .banner-text {
-    top: 70px; }
+    top: 70px;
+    width: 100%; }
   .pdp {
     display: flex;
     flex-direction: column !important;
@@ -562,7 +567,8 @@ footer {
     display: grid;
     justify-content: center; }
   .banner-text {
-    top: 0px !important; }
+    top: 0px !important;
+    width: 100% !important; }
   .socials-footer {
     margin-left: 0px;
     margin-top: 20px;

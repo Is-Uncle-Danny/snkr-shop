@@ -102,7 +102,9 @@ body header a {
   display: flex;
   width: 100%;
   object-fit: cover;
-  height: 500px; }
+  max-height: 300px;
+  min-height: 200px;
+  height: 100%; }
 
 .hp .banner-text {
   display: flex;
@@ -115,12 +117,16 @@ body header a {
   text-decoration: none;
   width: 650px; }
   .hp .banner-text h3 {
-    background-color: white;
+    background-color: #0a58ca;
     font-weight: 400;
     width: fit-content;
     padding-left: 8px;
     padding-right: 8px;
-    margin-top: 20px; }
+    margin-top: 20px;
+    color: white;
+    width: 200px;
+    text-align: center;
+    border-radius: 15px; }
   .hp .banner-text h2 {
     font-weight: 300;
     font-size: 28px;
@@ -569,6 +575,10 @@ footer {
   .banner-text {
     top: 0px !important;
     width: 100% !important; }
+  .hp .main-banner h1 {
+    font-size: 40px; }
+  .hp .main-banner h2 {
+    font-size: 24px; }
   .socials-footer {
     margin-left: 0px;
     margin-top: 20px;

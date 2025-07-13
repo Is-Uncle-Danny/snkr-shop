@@ -345,6 +345,21 @@
 		color: $background-nav;
 		width: auto;
 	}
+  .btn.active,
+  .btn:active,
+  .btn:focus {
+    background-color: #198754 !important; // Verde Bootstrap
+    color: #fff !important;
+    border-color: #198754 !important;
+    box-shadow: 0 0 0 0.2rem rgba(25,135,84,.25);
+    font-weight: 600;
+    outline: none;
+  }
+  .btn:hover {
+    background-color: #e6f4ec;
+    color: #198754;
+    border-color: #198754;
+  }
 }
 
 .btn{
@@ -369,3 +384,5 @@
 .carousel-control-next-icon, .carousel-control-prev-icon {
 	background-color: $color-acento;
 }
+
+

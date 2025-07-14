@@ -24,8 +24,14 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
     <!--!CSS-->
     <link rel="stylesheet" href="../css/estilos.css">
+    <!-- SweetAlert2 -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" defer></script>
+    <!--!JS-->
+    <script defer src="../app.js"></script>
     <!--!FAVICON-->
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+    <!--!FONT AWESOME-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <title>Productos</title>
 </head>
 
@@ -76,6 +82,10 @@
             <form class="form-inline my-2 my-lg-0">
                 <input class="form-control mr-sm-2" type="search" placeholder="Search">
                 <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Buscar</button>
+                <button class="btn-carrito-header" type="button" title="Ver carrito">
+                    <i class="fas fa-shopping-cart"></i>
+                    <span class="cart-count" style="display:none;">0</span>
+                </button>
             </form>
         </nav>
     </header>

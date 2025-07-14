@@ -3,3 +3,4 @@ readme.md
 *.txt
 node_modules/
 style.css
+.vscode
